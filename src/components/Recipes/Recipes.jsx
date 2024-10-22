@@ -19,9 +19,9 @@ fetch('recipes.json')
        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 ">
        {
          recipes.map(recipe =>
-            <div key={recipe.recipe_id} className="card bg-base-100  shadow-xl">
+            <div key={recipe.recipe_id} className="card bg-base-100  shadow-xl ">
             <figure>
-              <img className="rounded-xl md:h-52 w-full"
+              <img className="rounded-xl md:h-52 w-full "
                 src={recipe.recipe_image}
                 alt="Recipe_Image" />
             </figure>
@@ -36,8 +36,21 @@ fetch('recipes.json')
                 
                ) )}
               </ul>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+              <div className="flex gap-4">
+                <div className="flex items-center gap-2">
+                 <img className="w-5 h-5  " src='https://img.icons8.com/?size=50&id=H0JqzxqGxPQm&format=png'alt="" />
+                 <p>{recipe.preparing_time} minutes</p>
+                </div>
+
+                <div className="flex items-center gap-2">
+                 <img className="w-5 h-5  " src='https://img.icons8.com/?size=80&id=SXHd0vySm3pG&format=png'alt="" />
+                 <p>{recipe.calories} calories</p>
+                </div>
+                
+              </div>
+              <div className="card-actions ">
+                <button className="btn bg-green-400 rounded-xl text-gray-800 font-bold mt-4 ">Want To Cook</button>
+               
               </div>
             </div>
           </div>    
