@@ -1,0 +1,56 @@
+[
+    {
+      "recipe_image": "https://i.ibb.co.com/wLRVK7K/pexels-mali-65170.jpg",
+      "recipe_id": 1,
+      "recipe_name": "Chicken Teriyaki",
+      "short_description": "A delicious and easy-to-make teriyaki chicken recipe.",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
+      "preparing_time": 30,
+      "calories": 320
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/4jPBnxN/pexels-olly-3769999.jpg",
+      "recipe_id": 2,
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "A classic Italian pasta dish with creamy sauce and bacon.",
+      "ingredients": ["250 g spaghetti", "100 g bacon", "2 eggs", "50 g Parmesan cheese"],
+      "preparing_time": 45,
+      "calories": 450
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/VYsPQ64/pexels-pedrofurtadoo-28992229.jpg",
+      "recipe_id": 3,
+      "recipe_name": "Vegetable Stir-Fry",
+      "short_description": "A healthy and colorful stir-fry with a variety of vegetables.",
+      "ingredients": ["2 cups mixed vegetables", "1 tablespoon soy sauce", "1 teaspoon sesame oil", "1 clove garlic"],
+      "preparing_time": 20,
+      "calories": 200
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/m5dFhQg/pexels-pedrofurtadoo-28992225.jpg",
+      "recipe_id": 4,
+      "recipe_name": "Chocolate Chip Cookies",
+      "short_description": "A classic American cookie recipe with chocolate chips.",
+      "ingredients": ["1 cup butter", "1 cup sugar", "2 eggs", "2 cups flour", "1 cup chocolate chips"],
+      "preparing_time": 30,
+      "calories": 350
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/nfTZzst/pexels-ella-olsson-572949-1640773-1.jpg",
+      "recipe_id": 5,
+      "recipe_name": "Caesar Salad",
+      "short_description": "A refreshing salad with romaine lettuce, croutons, and Caesar dressing.",
+      "ingredients": ["1 head romaine lettuce", "1 cup croutons", "1/4 cup Parmesan cheese", "1/4 cup Caesar dressing"],
+      "preparing_time": 15,
+      "calories": 150
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/gjGysn0/pexels-dana-tentis-118658-691114.jpg",
+      "recipe_id": 6,
+      "recipe_name": "Beef Curry",
+      "short_description": "A flavorful and hearty curry dish with beef and vegetables.",
+      "ingredients": ["500 g beef", "1 onion", "1 potato", "1 carrot", "1 can coconut milk", "1 tablespoon curry powder"],
+      "preparing_time": 45,
+      "calories": 400
+    }
+  ]
