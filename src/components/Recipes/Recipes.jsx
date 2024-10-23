@@ -1,8 +1,10 @@
+/* eslint-disable react/prop-types */
 import { useEffect } from "react";
 import { useState } from "react";
 
 
-const Recipes = () => {
+const Recipes = ({handleWantToCook}) => {
+    
 const [recipes,setRecipes]=useState([]);
 
 useEffect(()=>{
@@ -49,7 +51,7 @@ fetch('recipes.json')
                 
               </div>
               <div className="card-actions ">
-                <button className="btn bg-green-400 rounded-xl text-gray-800 font-bold mt-4 ">Want To Cook</button>
+                <button onClick={()=>handleWantToCook(recipe)} className="btn bg-green-400 rounded-xl text-gray-800 font-bold mt-4 ">Want To Cook</button>
                
               </div>
             </div>
